@@ -1,0 +1,18 @@
+PATCH  http://localhost:3005/api/user/updateDonationStatus/2 HTTP/1.1
+content-type: application/json
+
+
+{
+
+    "name": "John Doe is bakchod",
+    "bloodGroup": "A+",
+    "email": "johndoe@example.com",
+    "city": "New York",
+    "contactNumber": "8918060957",
+    "anyPrevDisease": true,
+    "prevMedicalHistory": "High blood pressure",
+    "lastBloodDonated": "2024-04-16",
+    "isAdmin": true,
+    "isCampManager": true
+}
+
